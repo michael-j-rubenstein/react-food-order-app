@@ -1,6 +1,6 @@
 import styles from "./Header.module.css";
 
-import image from "../../assets/meals.jpeg";
+import image from "../../assets/meals.jpg";
 import HeaderCartButton from "./HeaderCartButton";
 
 const Header = () => {
