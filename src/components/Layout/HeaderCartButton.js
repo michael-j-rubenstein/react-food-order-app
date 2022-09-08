@@ -12,8 +12,6 @@ const HeaderCartButton = (props) => {
 
   const numberOfCartItems = cartCtx.items.reduce((accumulator, item) => {
     const newAmount = +item.amount;
-    console.log(typeof newAmount, typeof accumulator);
-    console.log(accumulator + newAmount);
     return accumulator + newAmount;
   }, 0);
 
