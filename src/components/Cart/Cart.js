@@ -40,10 +40,10 @@ const Cart = (props) => {
         <span>{totalAmount}</span>
       </div>
       <div className={styles.buttons}>
-        <Button className={styles["button--alt"]} onClick={props.onHideCart}>
+        <Button className={styles["button--close"]} onClick={props.onHideCart}>
           Close
         </Button>
-        {hasItems && <Button className={styles.button}>Order</Button>}
+        {hasItems && <Button className={styles["button-order"]}>Order</Button>}
       </div>
     </Modal>
   );

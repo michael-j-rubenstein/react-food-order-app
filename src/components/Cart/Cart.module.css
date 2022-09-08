@@ -19,14 +19,29 @@
 
 .buttons {
     display: flex;
-    justify-content: flex-end; 
+    justify-content: center; 
 }
 
-.button {
-    padding: 0.8rem 3rem;
+.button--close {
+    padding: 0.5rem 2rem;
+    margin-right: 2rem;
 }
 
-.button--alt {
-    padding: 0.8rem 3rem;
-    margin-right: 1rem;
+.button-order {
+    padding: 0.5rem 2rem;
+}
+
+@media  screen and (min-width: 768px) {
+    .buttons {
+        justify-content: flex-end; 
+    }
+    
+    .button--close {
+        padding: 0.8rem 3rem;
+        margin-right: 1rem;
+    }
+    
+    .button-order {
+        padding: 0.8rem 3rem;
+    }
 }
