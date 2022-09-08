@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 0.7rem 1.5rem;
+    padding: 0.5rem 0.5rem;
     transition: color 0.3s ease,
     background-color 0.3s ease;
     overflow: hidden;
@@ -20,23 +20,23 @@
 }
 
 .content {
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: bold;
 }
 
 
 .icon {
-    width: 1.35rem;
-    height: 1.35rem;
-    margin-right: 1rem;
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.5rem;
 }
 
 .badge {
     color: black;
-    margin-left: 1rem;
+    margin-left: 0.5rem;
     background: white;
-    padding: 0.2rem 0.8rem;
-    border-radius: 15px;
+    padding: 0.1rem 0.5rem;
+    border-radius: 10px;
     font-weight: bold;
 }
 
@@ -65,4 +65,29 @@
     100% {
       transform: scale(1);
     }
+  }
+
+  @media screen and (min-width: 768px) {
+  
+  .button {
+    padding: 0.7rem 1.5rem;
+  }
+
+  .content {
+      font-size: 1rem;
+  }
+  
+  
+  .icon {
+      width: 1.35rem;
+      height: 1.35rem;
+      margin-right: 1rem;
+  }
+  
+  .badge {
+      margin-left: 1rem;
+      padding: 0.2rem 0.8rem;
+      border-radius: 15px;
+      font-weight: bold;
+  }
   }
