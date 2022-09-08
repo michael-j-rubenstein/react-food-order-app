@@ -1,0 +1,35 @@
+
+.cart-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.cart-item h3 {
+    font-size: 1.5rem;
+    margin: 0 0 0.5rem;
+}
+
+.cart-item__price {
+    font-weight: bold;
+    font-size: 1rem;
+    margin-right: 4rem;
+    color: #0BAC5E;
+}
+
+.cart-item__quantity {
+    border: 1px solid #ccc;
+    padding: 0.2rem 1rem;
+    border-radius: 8px;
+}
+
+.btn:first-of-type {
+    margin-right: 0.5rem;
+}
+
+.btn {
+    padding: 0.7rem 2rem;
+}
