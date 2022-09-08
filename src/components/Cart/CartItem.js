@@ -12,11 +12,11 @@ const CartItem = (props) => {
         <span className={styles["cart-item__quantity"]}>{quanity}</span>
       </div>
       <div>
-        <Button className={styles.btn} onClick={props.onAdd}>
-          +
-        </Button>
         <Button className={styles.btn} onClick={props.onRemove}>
           -
+        </Button>
+        <Button className={styles.btn} onClick={props.onAdd}>
+          +
         </Button>
       </div>
     </li>

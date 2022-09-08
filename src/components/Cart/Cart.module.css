@@ -22,6 +22,11 @@
     justify-content: flex-end; 
 }
 
+.button {
+    padding: 0.8rem 3rem;
+}
+
 .button--alt {
+    padding: 0.8rem 3rem;
     margin-right: 1rem;
 }
