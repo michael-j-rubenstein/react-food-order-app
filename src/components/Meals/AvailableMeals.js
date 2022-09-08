@@ -24,9 +24,35 @@ const DUMMY_MEALS = [
   },
   {
     id: "m4",
+    name: "Spicy Chicken Burger",
+    description: "Juicy, bbq sauce, coleslaw, chicken burger",
+    price: 15.99,
+  },
+  {
+    id: "m5",
+    name: "Burrito",
+    description:
+      "Comes with steak, rice, beans, guacamole, corn and salsa. Delicious!",
+    price: 13.99,
+  },
+  {
+    id: "m6",
     name: "Green Bowl",
     description: "Healthy...and green...",
     price: 18.99,
+  },
+  {
+    id: "m7",
+    name: "Butter Chicken",
+    description:
+      "Start your day with a nice bowl of butter chicken, not too spicy and not too sweet, great for everyone!",
+    price: 23.99,
+  },
+  {
+    id: "m8",
+    name: "Pizza",
+    description: "Flavors: Margerita, BBQ Chicken, Steak, Potato, Yam. ",
+    price: 11.99,
   },
 ];
 

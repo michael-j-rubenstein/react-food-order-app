@@ -20,6 +20,8 @@
 .meal__description {
     font-size: 0.9rem;
     font-style: italic;
+    max-width: 20ch;
+    word-wrap: wrap;
 }
 
 .meal__price {
