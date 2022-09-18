@@ -18,6 +18,12 @@
     margin-top: 2rem;
 }
 
+.meals-error {
+    text-align: center;
+    color: red;
+    margin-top: 2rem;
+}
+
 @keyframes meals-appear {
     from {
         opacity: 0;
