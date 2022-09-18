@@ -1,0 +1,94 @@
+
+
+.control-group {
+    max-height: 25vh;
+    overflow: scroll;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.control {
+    margin: 0 0.1rem 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.control label {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.control input {
+    padding: 0.3rem 1rem;
+    border-radius: 14px;
+    border: 1px solid #ccc;
+    font-size: 1.2rem;
+    margin-top: 0.4rem;
+}
+
+.control input:focus {
+    outline: none;
+    margin-top: calc(0.4rem + 2px);
+    border: 0; 
+    box-shadow: 0 0 3px 2px #0BAC5E;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 0.2rem;
+}
+
+.form-buttons button:first-of-type {
+    padding: 0.5rem 2rem;
+    margin-right: 2rem;
+}
+
+.form-buttons button:last-of-type {
+    padding: 0.5rem 2rem;
+}
+
+.invalid label {
+    color: red;
+}
+
+.invalid input {
+    border: 1px solid red;
+    background-color: rgba(255, 0, 0, 0.25);
+}
+
+.invalid input:focus {
+    border: 1px solid #ffbf00e0; 
+    margin-top: 0.4rem;
+    box-shadow: 0 0 3px 2px #ffbf00e0;
+}
+
+.error-text {
+    color: red;
+    margin-top: 0.4rem;
+}
+
+@media  screen and (min-width: 768px) {
+    
+    
+    .control label {
+        font-size: 1.2rem;
+    }
+    
+    .control input {
+        padding: 0.5rem 1rem;
+    }
+
+    .form-buttons {
+        justify-content: flex-end;
+    }
+    
+    .form-buttons button:first-of-type {
+        padding: 0.8rem 3rem;
+        margin-right: 1rem;
+    }
+    
+    .form-buttons button:last-of-type {
+        padding: 0.8rem 3rem;
+    }
+}
