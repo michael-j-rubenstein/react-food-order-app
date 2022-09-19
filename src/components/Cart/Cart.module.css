@@ -16,6 +16,11 @@
     border-bottom: 1px solid #ccc;
 }
 
+.submit-message {
+    text-align: center;
+    font-weight: bold;
+}
+
 .buttons {
     display: flex;
     margin-top: 1rem;

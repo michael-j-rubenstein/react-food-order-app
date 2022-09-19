@@ -5,7 +5,7 @@ import styles from "./Checkout.module.css";
 import Button from "../UI/Button";
 
 const isEmpty = (value) => value.trim() === "";
-const isValidPostal = (value) => value.length === 6;
+const isValidPostal = (value) => value.replace(/\s+/g, "").length === 6;
 
 const Checkout = (props) => {
   const [formInputsValidity, setFormInputsValidity] = useState({
@@ -50,7 +50,12 @@ const Checkout = (props) => {
       return;
     }
 
-    // Submit cart data
+    props.onCheckOut({
+      name: enteredName,
+      street: enteredStreet,
+      city: enteredCity,
+      postal: enteredPostal,
+    });
   };
 
   const nameControlStyles = `${styles.control} ${
